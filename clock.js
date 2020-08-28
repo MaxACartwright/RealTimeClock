@@ -17,5 +17,4 @@ function printTime() {
   }
   document.body.innerHTML = hours+":"+mins+":"+secs+"."+milli+" "+amOrPm+"<br>"+month+"/"+Day+"/"+year;
 }
-month += 1;
 setInterval(printTime, 1);
